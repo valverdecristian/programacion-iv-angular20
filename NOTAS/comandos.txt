@@ -1,0 +1,46 @@
+- para renderizar la pagina:
+ng serve
+ng s
+
+- para agregar Bootstrap al proyecto:
+ng add @ng-bootstrap/ng-bootstrap
+
+- para crear un componente:
+ng g c <ruta>
+
+- para crear una pagina (organizada):
+ng g c pages/<nombre>
+
+- para crear un servicio:
+ng g s services/<nombre>
+
+- para crear una clase:
+ng g cl <ruta>
+
+- para crear una directiva:
+ng g d <ruta>
+
+- para crear un pipe:
+ng g p <ruta>
+
+- para mantener organizado:
+pages/<nombre> , components/<nombre>, services/<nombre>, models/<nombre>
+
+- para crear un guard:
+ng generate guard guards/mi-guard
+
+- variables de entorno
+ng generate environments
+
+- para usar el env convencional:
+npm i @types/node
+
+
+PASOS PARA UN PROYECTO NUEVO:
+1. ng new nombreProyecto
+2. ng add @ng-bootstrap/ng-bootstrap
+3. ng g c pages/nombre (depende de la cantidad necesaria)
+4. configurar las rutas (en app.routes.ts)
+5. agregar botones de navegacion (en app.component.html)
+6. agregar RouterLink en app.component.ts
+7. ng s -o
