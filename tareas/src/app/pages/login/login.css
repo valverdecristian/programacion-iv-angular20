@@ -14,14 +14,11 @@
   font-weight: 700;
 }
 
-.form {
-  margin-top: 1.5rem;
-}
-
 .input-group {
   margin-top: 0.25rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
+  width: 100%;
 }
 
 .input-group label {
@@ -35,7 +32,7 @@
   border-radius: 0.375rem;
   border: 1px solid #2e1065;
   outline: 0;
-  background-color: #4B0082;
+  background-color: #cd97f3;
   padding: 0.75rem 1rem;
   color: rgba(243, 244, 246, 1);
 }
@@ -64,9 +61,7 @@
 }
 
 .sign {
-  display: inline-block;
-  width: auto;
-  min-width: 120px;
+  margin-top: 1rem;
   background-color: #facc15;
   padding: 0.75rem 1.5rem;
   text-align: center;
@@ -74,6 +69,13 @@
   border: none;
   border-radius: 0.375rem;
   font-weight: 600;
+  cursor: pointer;
+}
+
+.sign:hover {
+  background-color: #2e1065;
+  color: #facc15;
+  cursor: pointer;
 }
 
 .social-message {
@@ -89,6 +91,7 @@
 }
 
 .social-message .message {
+  text-align: center;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   font-size: 0.875rem;
